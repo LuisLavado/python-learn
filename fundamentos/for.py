@@ -33,10 +33,10 @@ print("-------------------------------")
 
 adjetivos = ["Rica", "Saludable"]
 frutas = ["Manzana", "Naranja", "Kiwi"]
+# for adjetivo in adjetivos:
+#     for fruta in frutas:
+#         print(fruta, adjetivo)
+
 for fruta in frutas:
     for adjetivo in adjetivos:
         print(f"{fruta} {adjetivo}")
-
-for adjetivo in adjetivos:
-    for fruta in frutas:
-        print(fruta, adjetivo)
