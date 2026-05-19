@@ -40,3 +40,7 @@ frutas = ["Manzana", "Naranja", "Kiwi"]
 for fruta in frutas:
     for adjetivo in adjetivos:
         print(f"{fruta} {adjetivo}")
+
+# pass: es una palabra reservada que se utiliza como un marcador de posición para indicar que no se realizará ninguna acción en ese bloque de código. Se puede usar en situaciones donde se requiere una sintaxis válida pero no se desea ejecutar ningún código.
+for i in range(1, 4):
+    pass
